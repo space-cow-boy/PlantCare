@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "KYARI Plant Care",
+    "slug": "kyari-plant-care",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kyari.plantcare",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "KYARI connects to the plant analysis service running on your computer over your local Wi-Fi network."
+      }
+    },
+    "android": {
+      "package": "com.kyari.plantcare",
+      "adaptiveIcon": {
+        "backgroundColor": "#F8F3E8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow KYARI to photograph plants for identification and care advice.",
+          "photosPermission": "Allow KYARI to choose plant photos for identification and care advice.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F8F3E8"
+        }
+      ],
+      "expo-notifications",
+      "expo-status-bar"
+    ]
+  }
+}

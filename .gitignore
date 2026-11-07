@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+.env
+server/.env
+android/
+ios/
+build/
+dist/
+local.properties
+*.jks
+*.keystore
+npm-debug.log*
